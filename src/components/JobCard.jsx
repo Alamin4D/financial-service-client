@@ -24,7 +24,6 @@ const JobCard = ({job}) => {
           <p className='mt-2 text-sm font-bold text-gray-600 '>
             Range: $100 - $150
           </p>
-          {/* kabir */}
         </div>
       </div>
     )
