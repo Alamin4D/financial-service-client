@@ -1,7 +1,8 @@
 import { useLoaderData } from "react-router-dom";
+import AllJobs from "../components/AllJobs";
 // import Carousel from "../components/Carousel";
 // import TabCategories from "../components/TabCategories";
-// import AllJobs from "../components/AllJobs";
+
 
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
     return (
         <div>
             {/* <Carousel /> */}
-            {/* <AllJobs /> */}
+            <AllJobs />
             {/* <TabCategories jobs={jobs} /> */}
         </div>
     );
